@@ -35,7 +35,9 @@ public class Boss {
         this.defenceType = defenceType;
     }
 
-    public Boss() {
+   public void BossM(int t) {
+        this.defenceType = t;
+        System.out.println(t);
     }
 
 }
